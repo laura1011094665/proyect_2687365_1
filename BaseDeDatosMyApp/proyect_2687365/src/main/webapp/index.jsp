@@ -24,16 +24,16 @@
 </style>
 <div id="form" class="container">
     <form class="" action="" method="">
-        <label for="name">Nombre:</label><br>
+        <label for="firtsname">Nombre:</label><br>
         <br>
-        <input type="name" id="name" name="name" placeholder="ingrese su nombre" autofocus
-               required pattern="{60}"><br><br>
-        <label for="name">Nombre:</label><br>
-        <br>
-        <input type="lasttname" id="firstname" name="firstname" placeholder="ingrese su apellido"
+        <input type="firtsname" id="firtsname" name="firtsname" placeholder="ingrese su nombre" autofocus
                required pattern="{60}"><br><br>
 
-        <label for="firstname">Apellido:</label><br>
+        <label for="lasttname">Apellido:</label><br>
+        <br>
+        <input type="lasttname" id="lasttname" name="tname" placeholder="ingrese su apellido"
+               required pattern="{60}"><br><br>
+
         <br>
         <input type="email" id="email" name="email" placeholder="ingrese su correo" autofocus
                required pattern="{60}"><br><br>
@@ -44,7 +44,7 @@
         <br>
         <button class="btn btn-primary" type="submit">Enviar</button>
         <br><br>
-        <a href="hello-servlet">Hello Servlet</a>
+        <a href="login.jsp">Log in</a>
     </form>
 </div>
 <br>
@@ -74,5 +74,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
