@@ -1,2 +1,1 @@
-# proyect_2687365_1
-hola
+El presente repositorio, contiene dos páginas una para login y otra para registrar, estas páginas vienen con su respectiva estructura HTML y CSS para cada uno de los formularios que están en estas páginas. además, se editó el archivo 'pom.xml' en el cual se le añadieron las versiones de los sistemas gestores de bases de datos y otros programas. por otro lado, bean (donde están los atributos, constructores, getters, setters y toString) correspondiente a la tabla de usuario, esta base de datos fue utilizada en el sistema gestor de bases de datos HeidiSQ, la base de datos fue exportada a una carpeta en conjunto del proyecto.
